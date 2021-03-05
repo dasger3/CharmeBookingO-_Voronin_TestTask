@@ -1,4 +1,4 @@
-package BackToStock;
+package BackToStock.pojo;
 
 public enum ProductCategory {
 

@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad675d49-7991-41c5-bfd1-8df3c3b5c6a5" name="Default Changelist" comment="" />
+    <list default="true" id="ad675d49-7991-41c5-bfd1-8df3c3b5c6a5" name="Default Changelist" comment="add packages">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BackToStock/BackToStockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BackToStock/services/BackToStockService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BackToStock/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BackToStock/run/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BackToStock/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BackToStock/services/MyQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BackToStock/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BackToStock/pojo/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BackToStock/ProductCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BackToStock/pojo/ProductCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BackToStock/StockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BackToStock/services/StockService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BackToStock/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BackToStock/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BackToStockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BackToStockTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +29,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1pIymWt0sw9FpOpKJ5H10P9MBdU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
@@ -115,6 +131,21 @@
       <updated>1614885057939</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="add packages" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/VoroninTestTask$BackToStockTest.ic" NAME="BackToStockTest Coverage Results" MODIFIED="1614976654913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

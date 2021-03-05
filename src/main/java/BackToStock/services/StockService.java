@@ -1,49 +1,47 @@
-package BackToStock;
+package BackToStock.services;
+
+import BackToStock.pojo.Product;
+import BackToStock.pojo.User;
+import BackToStock.services.BackToStockService;
 
 import java.util.*;
 
 public class StockService implements BackToStockService {
 
     public void subscribe(User user, Product product) {
-        try {
+        if (product!=null) {
             product.getQueue().orderedAdd(user);
         }
-        catch (NullPointerException e) {
+        else {
             System.out.println("Invalid product");
         }
-
     }
 
     public List<User> subscribedUsers(Product product) {
-        try {
+        if (product!=null) {
             return product.getQueue();
         }
-        catch (NullPointerException e) {
+        else {
             System.out.println("Invalid product");
+            return new LinkedList<>();
         }
-        return new LinkedList<>();
-
     }
 
     public void show (Product product) {
-        try {
+        if (product!=null) {
             System.out.println(product.getQueue());
         }
-        catch (NullPointerException e) {
+        else {
             System.out.println("Invalid product");
         }
-        //ListIterator<BackToStock.User> userIter = product.getQueue().listIterator();
-        //while (userIter.hasNext()) {
-            //System.out.println(userIter.next());
-        //}
     }
 
     public void itemAppeared (Product product) {
-        try {
+        if (product!=null) {
             User user = product.getQueue().poll();
             System.out.println(user + " received the product and got out of the queue");
         }
-        catch (NullPointerException e) {
+        else {
             System.out.println("Invalid product");
         }
 

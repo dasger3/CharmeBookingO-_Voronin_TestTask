@@ -1,18 +1,18 @@
-import BackToStock.*;
+import BackToStock.pojo.*;
+import BackToStock.services.*;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Random;
 
 public class BackToStockTest {
 
-    BackToStockService stockService;
-    LinkedList<User> testListOfUsers;
-    Product product1;
-    Product product2;
+    private BackToStockService stockService;
+    private LinkedList<User> testListOfUsers;
+    private Product product1;
+    private Product product2;
 
     @Before
     public void setUp() {

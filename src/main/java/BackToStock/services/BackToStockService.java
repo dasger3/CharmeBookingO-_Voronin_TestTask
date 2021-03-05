@@ -1,4 +1,7 @@
-package BackToStock;
+package BackToStock.services;
+
+import BackToStock.pojo.Product;
+import BackToStock.pojo.User;
 
 import java.util.List;
 

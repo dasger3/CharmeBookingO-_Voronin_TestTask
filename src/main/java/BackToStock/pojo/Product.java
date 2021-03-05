@@ -1,4 +1,6 @@
-package BackToStock;
+package BackToStock.pojo;
+
+import BackToStock.services.MyQueue;
 
 public class Product {
 

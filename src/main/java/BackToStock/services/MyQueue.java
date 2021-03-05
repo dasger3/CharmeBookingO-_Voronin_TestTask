@@ -1,4 +1,6 @@
-package BackToStock;
+package BackToStock.services;
+
+import BackToStock.pojo.*;
 
 import java.util.Comparator;
 import java.util.LinkedList;
@@ -6,8 +8,8 @@ import java.util.ListIterator;
 
 public class MyQueue<T> extends LinkedList<T> implements Comparator<T> {
 
-    ProductCategory productCategory;
-    MyQueue (ProductCategory productCategory) {
+    private ProductCategory productCategory;
+    public MyQueue (ProductCategory productCategory) {
         this.productCategory = productCategory;
     }
 
@@ -32,7 +34,7 @@ public class MyQueue<T> extends LinkedList<T> implements Comparator<T> {
     public int compare(T user1, T user2) {
         return Integer.compare(getPriority((User) user2, productCategory), getPriority((User) user1, productCategory));
     }
-    public int getPriority (User user, ProductCategory productCategory) {
+    private int getPriority (User user, ProductCategory productCategory) {
         if (user.isPremium())  return 2;
         if (user.getAge() > 70) {
             if (productCategory == ProductCategory.MEDICAL) return 2;

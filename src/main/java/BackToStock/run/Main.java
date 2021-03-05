@@ -1,11 +1,11 @@
-package BackToStock;
+package BackToStock.run;
 
 public class Main {
 
     public static void main(String[] args) {
 
 
-//        BackToStock.BackToStockService stockService = new BackToStock.StockService();
+//        BackToStock.BackToStockService stockService = new BackToStock.services.StockService();
 //        stockService.subscribe(user1, product);
 //        stockService.subscribe(user2, product);
 //
@@ -22,6 +22,6 @@ public class Main {
 //        stockService.subscribe(user2, product);
 //        stockService.show(product);
 //
-//        //BackToStock.MyQueue<BackToStock.StockService.Checker> que;
+//        //BackToStock.services.MyQueue<BackToStock.services.StockService.Checker> que;
     }
 }

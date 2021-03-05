@@ -1,4 +1,4 @@
-package BackToStock;
+package BackToStock.pojo;
 
 public class User {
     private String name;
@@ -37,7 +37,7 @@ public class User {
     @Override
     public String toString() {
         StringBuilder str = new StringBuilder();
-        if (premium == true) {
+        if (premium) {
             str.append("Premium ");
         } else {
             str.append("Default ");
